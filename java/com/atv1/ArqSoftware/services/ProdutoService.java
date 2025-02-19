@@ -20,13 +20,8 @@ public class ProdutoService {
         return produtoRepository.findAll();
     }
 
-    public Produto obterProdutoPorId(Long id) {
-        return produtoRepository.findById(id).orElse(null);
-    }
-
-    public void excluirProduto(Long id) {
-        produtoRepository.deleteById(id);
+   
     }
 
 	
-}
+

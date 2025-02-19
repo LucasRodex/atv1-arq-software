@@ -17,7 +17,7 @@ public class Produto {
     private String nome;
     private double preco;
 
-    public Produto() { // 🔹 Construtor padrão para o JPA
+    public Produto() { 
     }
 
     public Produto(String nome, double preco) {
